@@ -1,0 +1,438 @@
+[
+  {
+    "report_id": "CL-SYN-001",
+    "source_file": "01_flood_rooftop.txt",
+    "incident_type": "FLOOD",
+    "locations": [
+      "Velachery, Chennai"
+    ],
+    "affected_people": 8,
+    "vulnerable_groups": [
+      "CHILDREN",
+      "ELDERLY"
+    ],
+    "resource_needs": [
+      "RESCUE_TEAM",
+      "RESCUE_BOAT",
+      "SHELTER"
+    ],
+    "action_required": true,
+    "urgency": "CRITICAL",
+    "severity": "CRITICAL",
+    "actionability": "HIGH",
+    "actions": [
+      "RESCUE",
+      "PROVIDE_SHELTER"
+    ]
+  },
+  {
+    "report_id": "CL-SYN-002",
+    "source_file": "02_flood_boat_request.txt",
+    "incident_type": "FLOOD",
+    "locations": [
+      "Mudichur, Chengalpattu"
+    ],
+    "affected_people": 12,
+    "vulnerable_groups": [
+      "DISABLED"
+    ],
+    "resource_needs": [
+      "RESCUE_BOAT",
+      "RESCUE_TEAM"
+    ],
+    "action_required": true,
+    "urgency": "HIGH",
+    "severity": "HIGH",
+    "actionability": "HIGH",
+    "actions": [
+      "RESCUE"
+    ]
+  },
+  {
+    "report_id": "CL-SYN-003",
+    "source_file": "03_flood_relief_camp.txt",
+    "incident_type": "FLOOD",
+    "locations": [
+      "Perumbakkam, Chennai"
+    ],
+    "affected_people": 46,
+    "vulnerable_groups": [
+      "CHILDREN"
+    ],
+    "resource_needs": [
+      "DRINKING_WATER",
+      "FOOD"
+    ],
+    "action_required": true,
+    "urgency": "HIGH",
+    "severity": "MEDIUM",
+    "actionability": "HIGH",
+    "actions": [
+      "PROVIDE_WATER",
+      "PROVIDE_FOOD"
+    ]
+  },
+  {
+    "report_id": "CL-SYN-004",
+    "source_file": "04_residential_fire.txt",
+    "incident_type": "FIRE",
+    "locations": [
+      "Tondiarpet, Chennai"
+    ],
+    "affected_people": 4,
+    "vulnerable_groups": [
+      "CHILDREN"
+    ],
+    "resource_needs": [
+      "FIRE_SERVICE",
+      "RESCUE_TEAM"
+    ],
+    "action_required": true,
+    "urgency": "CRITICAL",
+    "severity": "CRITICAL",
+    "actionability": "HIGH",
+    "actions": [
+      "EXTINGUISH_FIRE",
+      "RESCUE"
+    ]
+  },
+  {
+    "report_id": "CL-SYN-005",
+    "source_file": "05_contained_fire.txt",
+    "incident_type": "FIRE",
+    "locations": [
+      "Tambaram, Chennai"
+    ],
+    "affected_people": 0,
+    "vulnerable_groups": [],
+    "resource_needs": [],
+    "action_required": false,
+    "urgency": "LOW",
+    "severity": "LOW",
+    "actionability": "LOW",
+    "actions": [
+      "MONITOR"
+    ]
+  },
+  {
+    "report_id": "CL-SYN-006",
+    "source_file": "06_medical_pregnancy.txt",
+    "incident_type": "MEDICAL_EMERGENCY",
+    "locations": [
+      "Thiruvanmiyur, Chennai"
+    ],
+    "affected_people": 1,
+    "vulnerable_groups": [
+      "PREGNANT"
+    ],
+    "resource_needs": [
+      "AMBULANCE",
+      "MEDICAL_TEAM"
+    ],
+    "action_required": true,
+    "urgency": "CRITICAL",
+    "severity": "CRITICAL",
+    "actionability": "HIGH",
+    "actions": [
+      "DISPATCH_AMBULANCE",
+      "PROVIDE_MEDICAL_AID"
+    ]
+  },
+  {
+    "report_id": "CL-SYN-007",
+    "source_file": "07_medical_dialysis.txt",
+    "incident_type": "MEDICAL_EMERGENCY",
+    "locations": [
+      "Cuddalore, Tamil Nadu"
+    ],
+    "affected_people": 1,
+    "vulnerable_groups": [
+      "CHRONICALLY_ILL"
+    ],
+    "resource_needs": [
+      "AMBULANCE",
+      "MEDICAL_TEAM"
+    ],
+    "action_required": true,
+    "urgency": "HIGH",
+    "severity": "HIGH",
+    "actionability": "HIGH",
+    "actions": [
+      "DISPATCH_AMBULANCE",
+      "PROVIDE_MEDICAL_AID"
+    ]
+  },
+  {
+    "report_id": "CL-SYN-008",
+    "source_file": "08_accident_guindy.txt",
+    "incident_type": "ROAD_ACCIDENT",
+    "locations": [
+      "Guindy, Chennai"
+    ],
+    "affected_people": 3,
+    "vulnerable_groups": [
+      "INJURED"
+    ],
+    "resource_needs": [
+      "AMBULANCE",
+      "MEDICAL_TEAM"
+    ],
+    "action_required": true,
+    "urgency": "CRITICAL",
+    "severity": "HIGH",
+    "actionability": "HIGH",
+    "actions": [
+      "DISPATCH_AMBULANCE",
+      "PROVIDE_MEDICAL_AID"
+    ]
+  },
+  {
+    "report_id": "CL-SYN-009",
+    "source_file": "09_accident_minor.txt",
+    "incident_type": "ROAD_ACCIDENT",
+    "locations": [
+      "Porur, Chennai"
+    ],
+    "affected_people": 2,
+    "vulnerable_groups": [
+      "INJURED"
+    ],
+    "resource_needs": [
+      "MEDICAL_TEAM"
+    ],
+    "action_required": true,
+    "urgency": "MEDIUM",
+    "severity": "LOW",
+    "actionability": "HIGH",
+    "actions": [
+      "PROVIDE_MEDICAL_AID"
+    ]
+  },
+  {
+    "report_id": "CL-SYN-010",
+    "source_file": "10_collapse_trapped.txt",
+    "incident_type": "BUILDING_COLLAPSE",
+    "locations": [
+      "Saidapet, Chennai"
+    ],
+    "affected_people": 5,
+    "vulnerable_groups": [
+      "INJURED"
+    ],
+    "resource_needs": [
+      "RESCUE_TEAM",
+      "AMBULANCE",
+      "MEDICAL_TEAM"
+    ],
+    "action_required": true,
+    "urgency": "CRITICAL",
+    "severity": "CRITICAL",
+    "actionability": "HIGH",
+    "actions": [
+      "RESCUE",
+      "DISPATCH_AMBULANCE",
+      "PROVIDE_MEDICAL_AID"
+    ]
+  },
+  {
+    "report_id": "CL-SYN-011",
+    "source_file": "11_collapse_displaced.txt",
+    "incident_type": "BUILDING_COLLAPSE",
+    "locations": [
+      "Kanchipuram, Tamil Nadu"
+    ],
+    "affected_people": 9,
+    "vulnerable_groups": [
+      "ELDERLY"
+    ],
+    "resource_needs": [
+      "SHELTER"
+    ],
+    "action_required": true,
+    "urgency": "HIGH",
+    "severity": "HIGH",
+    "actionability": "HIGH",
+    "actions": [
+      "PROVIDE_SHELTER"
+    ]
+  },
+  {
+    "report_id": "CL-SYN-012",
+    "source_file": "12_landslide_access.txt",
+    "incident_type": "LANDSLIDE",
+    "locations": [
+      "Coonoor, Nilgiris"
+    ],
+    "affected_people": null,
+    "vulnerable_groups": [],
+    "resource_needs": [
+      "ROAD_CLEARANCE"
+    ],
+    "action_required": true,
+    "urgency": "HIGH",
+    "severity": "MEDIUM",
+    "actionability": "HIGH",
+    "actions": [
+      "CLEAR_ROAD"
+    ]
+  },
+  {
+    "report_id": "CL-SYN-013",
+    "source_file": "13_storm_warning.txt",
+    "incident_type": "CYCLONE_STORM",
+    "locations": [
+      "Nagapattinam, Tamil Nadu"
+    ],
+    "affected_people": null,
+    "vulnerable_groups": [],
+    "resource_needs": [],
+    "action_required": true,
+    "urgency": "HIGH",
+    "severity": "HIGH",
+    "actionability": "MEDIUM",
+    "actions": [
+      "WARN",
+      "EVACUATE"
+    ]
+  },
+  {
+    "report_id": "CL-SYN-014",
+    "source_file": "14_storm_displacement.txt",
+    "incident_type": "CYCLONE_STORM",
+    "locations": [
+      "Rameswaram, Ramanathapuram"
+    ],
+    "affected_people": 6,
+    "vulnerable_groups": [
+      "CHILDREN"
+    ],
+    "resource_needs": [
+      "SHELTER",
+      "DRINKING_WATER"
+    ],
+    "action_required": true,
+    "urgency": "HIGH",
+    "severity": "HIGH",
+    "actionability": "HIGH",
+    "actions": [
+      "PROVIDE_SHELTER",
+      "PROVIDE_WATER"
+    ]
+  },
+  {
+    "report_id": "CL-SYN-015",
+    "source_file": "15_power_clinic.txt",
+    "incident_type": "POWER_OUTAGE",
+    "locations": [
+      "Royapuram, Chennai"
+    ],
+    "affected_people": 2,
+    "vulnerable_groups": [
+      "CHRONICALLY_ILL"
+    ],
+    "resource_needs": [
+      "POWER_RESTORATION"
+    ],
+    "action_required": true,
+    "urgency": "CRITICAL",
+    "severity": "CRITICAL",
+    "actionability": "HIGH",
+    "actions": [
+      "RESTORE_POWER"
+    ]
+  },
+  {
+    "report_id": "CL-SYN-016",
+    "source_file": "16_power_restored.txt",
+    "incident_type": "POWER_OUTAGE",
+    "locations": [
+      "Madurai, Tamil Nadu"
+    ],
+    "affected_people": null,
+    "vulnerable_groups": [],
+    "resource_needs": [],
+    "action_required": false,
+    "urgency": "LOW",
+    "severity": "LOW",
+    "actionability": "LOW",
+    "actions": [
+      "MONITOR"
+    ]
+  },
+  {
+    "report_id": "CL-SYN-017",
+    "source_file": "17_road_tree.txt",
+    "incident_type": "ROAD_BLOCKAGE",
+    "locations": [
+      "Adyar, Chennai"
+    ],
+    "affected_people": null,
+    "vulnerable_groups": [],
+    "resource_needs": [
+      "ROAD_CLEARANCE"
+    ],
+    "action_required": true,
+    "urgency": "MEDIUM",
+    "severity": "MEDIUM",
+    "actionability": "HIGH",
+    "actions": [
+      "CLEAR_ROAD"
+    ]
+  },
+  {
+    "report_id": "CL-SYN-018",
+    "source_file": "18_road_debris.txt",
+    "incident_type": "ROAD_BLOCKAGE",
+    "locations": [
+      "Tiruvallur, Tamil Nadu"
+    ],
+    "affected_people": null,
+    "vulnerable_groups": [],
+    "resource_needs": [
+      "ROAD_CLEARANCE"
+    ],
+    "action_required": true,
+    "urgency": "HIGH",
+    "severity": "MEDIUM",
+    "actionability": "HIGH",
+    "actions": [
+      "CLEAR_ROAD"
+    ]
+  },
+  {
+    "report_id": "CL-SYN-019",
+    "source_file": "19_weather_observation.txt",
+    "incident_type": "OTHER",
+    "locations": [
+      "Marina Beach, Chennai"
+    ],
+    "affected_people": null,
+    "vulnerable_groups": [],
+    "resource_needs": [],
+    "action_required": false,
+    "urgency": "LOW",
+    "severity": "LOW",
+    "actionability": "LOW",
+    "actions": [
+      "MONITOR"
+    ]
+  },
+  {
+    "report_id": "CL-SYN-020",
+    "source_file": "20_reservoir_monitor.txt",
+    "incident_type": "OTHER",
+    "locations": [
+      "Poondi, Tiruvallur"
+    ],
+    "affected_people": null,
+    "vulnerable_groups": [],
+    "resource_needs": [],
+    "action_required": false,
+    "urgency": "LOW",
+    "severity": "LOW",
+    "actionability": "LOW",
+    "actions": [
+      "MONITOR"
+    ]
+  }
+]

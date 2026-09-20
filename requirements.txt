@@ -1,0 +1,9 @@
+streamlit
+chromadb
+sentence-transformers
+python-dotenv
+google-generativeai
+watchdog
+numpy
+pandas
+plotly
